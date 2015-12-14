@@ -1,0 +1,12 @@
+digraph "l2r_l2_svc_fun"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="l2r_l2_svc_fun",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="function",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classfunction.html"];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" prob" ,fontname="Helvetica"];
+  Node3 [label="problem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structproblem.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" x" ,fontname="Helvetica"];
+  Node4 [label="feature_node",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structfeature__node.html"];
+}

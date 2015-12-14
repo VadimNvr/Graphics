@@ -1,0 +1,14 @@
+digraph "externals/EasyBMP" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2cd22813d85f759191becb0484c783ca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="externals" fontname="Helvetica", fontsize="10", URL="dir_2cd22813d85f759191becb0484c783ca.html"]
+  subgraph clusterdir_d89fc995d3477d064b67b81665f48956 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d89fc995d3477d064b67b81665f48956.html"];
+    dir_d89fc995d3477d064b67b81665f48956 [shape=plaintext label="EasyBMP"];
+    dir_74ec0741a6beae8d329a1735f9441f4a [shape=box label="include" color="black" fillcolor="white" style="filled" URL="dir_74ec0741a6beae8d329a1735f9441f4a.html"];
+    dir_d587f146143a0898401eda30c2fd56a2 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_d587f146143a0898401eda30c2fd56a2.html"];
+  }
+  }
+}

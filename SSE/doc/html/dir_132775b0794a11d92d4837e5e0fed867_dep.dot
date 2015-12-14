@@ -1,0 +1,10 @@
+digraph "bridge" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_132775b0794a11d92d4837e5e0fed867 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_132775b0794a11d92d4837e5e0fed867.html"];
+    dir_132775b0794a11d92d4837e5e0fed867 [shape=plaintext label="bridge"];
+    dir_ae4c8d13d128f1ac5f3113cdcf63df6f [shape=box label="include" color="black" fillcolor="white" style="filled" URL="dir_ae4c8d13d128f1ac5f3113cdcf63df6f.html"];
+  }
+}

@@ -1,0 +1,13 @@
+digraph "externals/liblinear-1.94" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2cd22813d85f759191becb0484c783ca {
+    graph [ bgcolor="#ddddee", pencolor="black", label="externals" fontname="Helvetica", fontsize="10", URL="dir_2cd22813d85f759191becb0484c783ca.html"]
+  subgraph clusterdir_f1e454c9567da7020d340ae5bfb0116d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f1e454c9567da7020d340ae5bfb0116d.html"];
+    dir_f1e454c9567da7020d340ae5bfb0116d [shape=plaintext label="liblinear-1.94"];
+    dir_9e018b47a9c35ced86741e43eae96328 [shape=box label="blas" color="black" fillcolor="white" style="filled" URL="dir_9e018b47a9c35ced86741e43eae96328.html"];
+  }
+  }
+}

@@ -1,0 +1,12 @@
+digraph "externals" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2cd22813d85f759191becb0484c783ca {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2cd22813d85f759191becb0484c783ca.html"];
+    dir_2cd22813d85f759191becb0484c783ca [shape=plaintext label="externals"];
+    dir_9dcec4cf6007c443eb48e8c1e1313025 [shape=box label="argvparser" color="red" fillcolor="white" style="filled" URL="dir_9dcec4cf6007c443eb48e8c1e1313025.html"];
+    dir_d89fc995d3477d064b67b81665f48956 [shape=box label="EasyBMP" color="red" fillcolor="white" style="filled" URL="dir_d89fc995d3477d064b67b81665f48956.html"];
+    dir_f1e454c9567da7020d340ae5bfb0116d [shape=box label="liblinear-1.94" color="red" fillcolor="white" style="filled" URL="dir_f1e454c9567da7020d340ae5bfb0116d.html"];
+  }
+}
